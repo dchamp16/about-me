@@ -248,7 +248,7 @@ footer {
 /* for MOBILE responsive purposes */
 
 @media only screen and (max-width: 500px) {
-  #clock {
+  .clock {
     font-size: 0.5em;
   }
   .head {
@@ -319,12 +319,6 @@ footer {
   .schedhead {
     display: flex;
   }
-  center {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 900px) {
   center {
     display: none;
   }

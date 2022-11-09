@@ -11,5 +11,5 @@ export default function Clock() {
     return () => clearInterval(interval);
   }, []);
 
-  return <div>{time}</div>;
+  return <div className="clock">{time}</div>;
 }

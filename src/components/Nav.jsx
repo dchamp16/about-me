@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../assets/style/fonts/active.css";
 
 const Nav = () => {
   return (

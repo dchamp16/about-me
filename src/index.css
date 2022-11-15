@@ -138,12 +138,15 @@ body {
 
 .aboutmebody,
 .haiku,
-.interest {
+.interest,
+ol.skill,
+.personal,
+ol.favbooks {
   font-size: 1.2em;
   text-align: justify;
-  margin: 1.5em;
-  padding: 0.5em;
-  line-height: 1.6em;
+  margin: 3em;
+  /* padding: 1em; */
+  line-height: 2.5em;
 }
 
 .aboutmebody::first-letter,
@@ -171,45 +174,6 @@ p.haiku::first-letter {
   opacity: 0.8;
 }
 
-/* table */
-/* center {
-  padding: 1.5em;
-}
-.schedule th {
-  text-align: center;
-  padding-right: 1.5em;
-  padding-bottom: 0.5em;
-  font-size: 1.6em;
-}
-
-.schedule td {
-  text-align: center;
-  padding-right: 2em;
-  padding-bottom: 1em;
-  font-size: 1.3em;
-}
-td.worksched {
-  font-size: 1.5em;
-}
-
-table.schedule {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-table .cs2300,
-table .cs2550,
-table .cs2370 {
-  transition: all 1s;
-}
-
-table .cs2300:hover,
-table .cs2550:hover,
-table .cs2370:hover {
-  color: white;
-  background-color: black;
-} */
-
 .res-section {
   margin-bottom: 3em;
   font-family: "comfortalight";
@@ -219,7 +183,6 @@ ol.skill,
 .personal,
 ol.favbooks {
   font-family: "comfortalight";
-  line-height: 2.5em;
   list-style-type: none;
 }
 
@@ -236,11 +199,6 @@ footer {
   color: white;
   background-color: black;
 }
-
-/* table.schedule {
-  text-align: center;
-  font-size: 0.8em;
-} */
 
 .contact {
   text-decoration: none;

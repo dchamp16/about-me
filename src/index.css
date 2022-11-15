@@ -160,6 +160,7 @@ p.haiku::first-letter {
   float: right;
   margin: 0.2em;
   opacity: 0.8;
+  padding-left: 0.8em;
 }
 #mypicture:hover {
   width: 50%;

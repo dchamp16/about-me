@@ -9,14 +9,14 @@ const PersonalBio = () => {
         </h1>
         <ol className="personal">
           <li>
-            Bachelors in Computer Science. Full Stack Web Development junior at Utah
+            Bachelor in Computer Science. Full Stack Web Development, junior at Utah
             Valley University 2022 - Current
           </li>
-          <li>Associate degree in Computer Science Info system 04/2022</li>
+          <li>Associate degree in Computer Science Info System 04/2022</li>
           <li>
             Finished High School at Our Lady Of Perpetual Help, Philippines. 03/2006
           </li>
-          <li>Current working for Backcountry.com</li>
+          <li>Current working at Backcountry.com</li>
         </ol>
       </section>
     </>
